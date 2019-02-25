@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25262d"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Please enter your location!"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:fontFamily="@font/codebold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_round"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp"
+
+        android:ems="10"
+        android:fontFamily="@font/codebold"
+        android:hint="Location"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="325dp"
+        android:layout_height="187dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fitsSystemWindows="true"
+        app:srcCompat="@drawable/loc" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="363dp"
+        android:layout_height="312dp"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="-50dp"
+        android:layout_marginBottom="-40dp"
+        android:fitsSystemWindows="true"
+        app:srcCompat="@drawable/backso" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="291dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/codebold"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_round2"
+        android:text="Let's Go!" />
+
+</RelativeLayout>
