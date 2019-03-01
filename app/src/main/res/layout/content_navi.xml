@@ -21,19 +21,180 @@
 
 
         <!--/>-->
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/codebold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Predicted customers today" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+
+    <devlight.io.library.ArcProgressStackView
+        android:id="@+id/arcG"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        app:apsv_rounded="true"
+        app:apsv_shadowed="false"
+        app:apsv_animated="true"
+        app:apsv_dragged="true"
+        app:apsv_leveled="false"
+        app:apsv_typeface="fonts/agency.ttf"
+        app:apsv_text_color="#fff"
+
+        app:apsv_animation_duration="1000"
+        app:apsv_interpolator="@android:anim/bounce_interpolator"
+        app:apsv_draw_width="36%    "
+        app:apsv_model_offset="-17dp"
+        android:layout_margin="16dp"
+        app:apsv_model_bg_enabled="true"
+        app:apsv_start_angle="270"
+        app:apsv_sweep_angle="360"
+        app:apsv_indicator_orientation="vertical"
+        app:apsv_preview_colors="@array/default_preview"
+        app:apsv_preview_bg="#ccc"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/graphTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00728F"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/codebold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:text="Total Earnings" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/GraphFast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF2434"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/codebold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:text="Level 1" />
+
+                <TextView
+                    android:id="@+id/GraphFastValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/codebold"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="23dp"
+                    android:text="10000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/graphMed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/codebold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:text="Level 2" />`
+
+                <TextView
+                    android:id="@+id/GraphMedValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/codebold"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="10000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/graphSlow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#94F50F"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/codebold"
+                android:textSize="14dp"
+                android:layout_marginLeft="20dp"
+                android:text="Level 3" />
+
+                <TextView
+                    android:id="@+id/GraphSlowValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/codebold"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="10000" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:text="New Payment"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/codebold"
+        android:background="@drawable/edit_round2"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/codebold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Predicted customers today" />
 
     <com.github.mikephil.charting.charts.LineChart android:layout_height="200dp"
         android:layout_width="match_parent"
+        android:layout_margin="5dp"
         android:id="@+id/charts">
 
 
     </com.github.mikephil.charting.charts.LineChart>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:id="@+id/button"
-        />
+
+
+
 
 
 

@@ -29,10 +29,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import androidx.annotation.RequiresApi;
+import devlight.io.library.ArcProgressStackView;
 import lecho.lib.hellocharts.view.LineChartView;
 
 public class Navi extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    private static final int MODEL_COUNT = 4;
+    private ArcProgressStackView mArcProgressStackView;
+    
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,32 @@ public class Navi extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         LineChart chart = (LineChart) findViewById(R.id.charts);
+        mArcProgressStackView = (ArcProgressStackView) findViewById(R.id.arcG);
+        mArcProgressStackView.setIsShadowed(false);
+//        mArcProgressStackView.setShadowColor(Color.argb(200, 0, 0, 0));
+        mArcProgressStackView.setAnimationDuration(1000);
+        mArcProgressStackView.setSweepAngle(270);
+
+        final String[] stringColors = getResources().getStringArray(R.array.devlight);
+        final String[] stringBgColors = getResources().getStringArray(R.array.bg);
+
+        final int[] colors = new int[MODEL_COUNT];
+        final int[] bgColors = new int[MODEL_COUNT];
+        for (int i = 0; i < MODEL_COUNT; i++) {
+            colors[i] = Color.parseColor(stringColors[i]);
+            bgColors[i] = Color.parseColor(stringBgColors[i]);
+        }
+        
+        final ArrayList<ArcProgressStackView.Model> models = new ArrayList<>();
+        models.add(new ArcProgressStackView.Model("STRATEGY", 100, Color.TRANSPARENT, colors[0]));
+        models.add(new ArcProgressStackView.Model("DESIGN", 60, Color.TRANSPARENT, colors[1]));
+        models.add(new ArcProgressStackView.Model("DEVELOPMENT", 20, Color.TRANSPARENT, colors[2]));
+        models.add(new ArcProgressStackView.Model("QA", 20, Color.TRANSPARENT, colors[3]));
+
+        mArcProgressStackView.setModels(models);
+        mArcProgressStackView.setSweepAngle(360);
+
+
         List<Entry> entries = new ArrayList<Entry>();
         entries.add(new Entry(0,0));
         entries.add(new Entry(1,5));
@@ -68,15 +98,25 @@ public class Navi extends AppCompatActivity
         entries.add(new Entry(23,5));
 
         LineDataSet dataSet = new LineDataSet(entries,"Nice");
-        dataSet.setColor(Color.parseColor("#6dd5ea"));
+        dataSet.setColor(Color.parseColor("#dd2471"));
         dataSet.setDrawCircles(false);
         dataSet.setFillDrawable(getDrawable(R.drawable.gradient));
-        dataSet.setValueTextColor(Color.parseColor("#dd2476"));
+        dataSet.setValueTextColor(Color.WHITE);
+        dataSet.setDrawValues(false);
 //        dataSet.setFillColor(Color.parseColor("#9099cc00"));
         dataSet.setDrawFilled(true);
         dataSet.setMode(LineDataSet.Mode.CUBIC_BEZIER);
         LineData lineData = new LineData(dataSet);
         chart.setData(lineData);
+        chart.getAxisLeft().setTextColor(Color.WHITE);
+        chart.getAxisRight().setTextColor(Color.WHITE);
+        chart.getXAxis().setTextColor(Color.WHITE);
+        chart.getLegend().setTextColor(Color.WHITE);
+        chart.animateX(900);
+        chart.animateY(1000);
+        chart.setTouchEnabled(true);
+
+        chart.animate();
         chart.invalidate();
 //        final GraphView graph = findViewById(R.id.graph);
 //
