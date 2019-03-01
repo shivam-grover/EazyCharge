@@ -30,7 +30,7 @@ import java.util.List;
 
 import androidx.annotation.RequiresApi;
 import devlight.io.library.ArcProgressStackView;
-import lecho.lib.hellocharts.view.LineChartView;
+import lecho.lib.hellocharts.view.LineChartView;    //aa
 
 public class Navi extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
