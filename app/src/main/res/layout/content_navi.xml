@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#25262d"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Navi"
+    tools:showIn="@layout/app_bar_navi">
+
+    <!--<com.jjoe64.graphview.GraphView android:layout_height="220dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:id="@+id/graph"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@null"-->
+        <!--android:outlineAmbientShadowColor="#ffffff"-->
+
+
+        <!--/>-->
+
+    <com.github.mikephil.charting.charts.LineChart android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:id="@+id/charts">
+
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/button"
+        />
+
+
+
+</LinearLayout>
