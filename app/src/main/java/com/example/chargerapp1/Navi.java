@@ -62,10 +62,10 @@ public class Navi extends AppCompatActivity
         }
         
         final ArrayList<ArcProgressStackView.Model> models = new ArrayList<>();
-        models.add(new ArcProgressStackView.Model("STRATEGY", 100, Color.TRANSPARENT, colors[0]));
-        models.add(new ArcProgressStackView.Model("DESIGN", 60, Color.TRANSPARENT, colors[1]));
-        models.add(new ArcProgressStackView.Model("DEVELOPMENT", 20, Color.TRANSPARENT, colors[2]));
-        models.add(new ArcProgressStackView.Model("QA", 20, Color.TRANSPARENT, colors[3]));
+        models.add(new ArcProgressStackView.Model("", 100, Color.TRANSPARENT, colors[3]));
+        models.add(new ArcProgressStackView.Model("", 40, Color.TRANSPARENT, colors[0]));
+        models.add(new ArcProgressStackView.Model("", 20, Color.TRANSPARENT, colors[1]));
+        models.add(new ArcProgressStackView.Model("", 60, Color.TRANSPARENT, colors[2]));
 
         mArcProgressStackView.setModels(models);
         mArcProgressStackView.setSweepAngle(360);
