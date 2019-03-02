@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.chargerapp1">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,13 +18,17 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Price" />
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".DetailsPace" />
+        <activity android:name=".SignUp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailsPace" />
+        <activity android:name=".Connector"></activity>
     </application>
 
 </manifest>

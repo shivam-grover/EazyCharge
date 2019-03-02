@@ -21,6 +21,8 @@ import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
@@ -36,7 +38,7 @@ public class Navi extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private static final int MODEL_COUNT = 4;
     private ArcProgressStackView mArcProgressStackView;
-    
+    DatabaseReference databaseReference;
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +46,7 @@ public class Navi extends AppCompatActivity
         setContentView(R.layout.activity_navi);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+//        databaseReference = FirebaseDatabase.getInstance().getReference();
         LineChart chart = (LineChart) findViewById(R.id.charts);
         mArcProgressStackView = (ArcProgressStackView) findViewById(R.id.arcG);
         mArcProgressStackView.setIsShadowed(false);

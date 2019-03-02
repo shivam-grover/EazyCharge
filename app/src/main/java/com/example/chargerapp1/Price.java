@@ -55,7 +55,7 @@ public class Price extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Price.this, Navi.class));
+                startActivity(new Intent(Price.this, Connector.class));
             }
         });
     }
