@@ -28,11 +28,45 @@
 
 
     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/codebold"
+        android:text="Predicted customers today"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/charts"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp">
+
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_round2"
+        android:fontFamily="@font/codebold"
+        android:text="Review Prices"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/codebold"
         android:textSize="18dp"
@@ -191,46 +225,10 @@
         android:textSize="16dp"
         android:textColor="#ffffff"
         android:fontFamily="@font/codebold"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/edit_round2"
         android:layout_marginTop="20dp"
         />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="@font/codebold"
-        android:textSize="18dp"
-        android:layout_marginLeft="20dp"
-        android:text="Predicted customers today" />
-
-    <com.github.mikephil.charting.charts.LineChart android:layout_height="200dp"
-        android:layout_width="match_parent"
-        android:layout_margin="5dp"
-        android:id="@+id/charts">
-
-
-    </com.github.mikephil.charting.charts.LineChart>
-
-
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:layout_gravity="center_horizontal"
-        android:text="Review Prices"
-        android:textSize="16dp"
-        android:textColor="#ffffff"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="@font/codebold"
-        android:background="@drawable/edit_round2"
-        android:layout_marginTop="20dp"
-        />
-
 
 
 </LinearLayout>

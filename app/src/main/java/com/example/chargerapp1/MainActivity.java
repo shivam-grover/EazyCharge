@@ -24,6 +24,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     Button button;
     TextView textView;
     EditText locationa;
+    DatabaseReference db;
     protected LocationManager locationManager;
     protected LocationListener locationListener;
     protected Context context;
@@ -44,10 +46,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        FirebaseApp.initializeApp(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.textView2);
-
+        db = FirebaseDatabase.getInstance().getReference("Operator Details");
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                db.child("Location").setValue(locationa.getText().toString());
                 startActivity(new Intent(MainActivity.this, DetailsPace.class));
             }
         });

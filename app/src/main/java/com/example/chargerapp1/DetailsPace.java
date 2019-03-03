@@ -8,11 +8,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class DetailsPace extends AppCompatActivity {
 
     ImageView addFast, addmed, addSlow, subFast, subMed, subS;
     Button next;
     TextView fast, med, slow;
+    DatabaseReference databaseReference;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +31,7 @@ public class DetailsPace extends AppCompatActivity {
         fast = findViewById(R.id.textView2);
         med = findViewById(R.id.num_med);
         slow = findViewById(R.id.num_s);
-
+        databaseReference = FirebaseDatabase.getInstance().getReference("Operator Details").child("Ports");
 
         addFast.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,6 +90,11 @@ public class DetailsPace extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                databaseReference.child("Level_1").setValue(fast.getText().toString());
+                databaseReference.child("Level_2").setValue(med.getText().toString());
+                databaseReference.child("Level_3").setValue(slow.getText().toString());
+
                 startActivity(new Intent(DetailsPace.this,Price.class));
             }
         });
