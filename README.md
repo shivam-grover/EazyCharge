@@ -22,12 +22,12 @@ Screenshots
   <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200" title="Login Page">
   <br />
   Login Page
- 
- </div>
-<div style="text-align:center">
-  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200" title="Location of the station">
+ <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200" title="Location of the station">
   <br />
   Location of the station 
+ </div>
+<div style="text-align:center">
+  
  </div>
 
 </div>
