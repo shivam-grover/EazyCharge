@@ -9,9 +9,6 @@ We have implemented a dynamic pricing system which takes several parameters, suc
 
 Screenshots
 
-image:: https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png
-   :height: 100px
-   :width: 200 px
-   :scale: 25 %
+<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="100">
 
 
