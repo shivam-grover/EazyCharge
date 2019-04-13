@@ -9,7 +9,7 @@ We have implemented a dynamic pricing system which takes several parameters, suc
 
 Screenshots
 
-<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A3.png" width="200">
+<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200" title="Login Page"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200" title="Location of the station"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A3.png" width="200">
       LOGIN PAGE
 
 
