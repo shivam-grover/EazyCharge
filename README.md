@@ -9,4 +9,4 @@ We have implemented a dynamic pricing system which takes several parameters, suc
 
 Screenshots
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png)
