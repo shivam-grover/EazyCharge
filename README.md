@@ -8,3 +8,4 @@ An application for the charging operators to maximize their audience without com
 We have implemented a dynamic pricing system which takes several parameters, such as the current price, the predicted audience in the near future, the number of users that might be around the station at that time and it comes up with a suggested margin(positive or negative) that the operator may choose for better balance between its audience and profit.
 
 Screenshots
+
