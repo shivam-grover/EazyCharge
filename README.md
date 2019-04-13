@@ -9,6 +9,7 @@ We have implemented a dynamic pricing system which takes several parameters, suc
 
 Screenshots
 
-<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="100">
+<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200">
+      LOGIN PAGE
 
 
