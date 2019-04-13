@@ -11,7 +11,7 @@ Screenshots
 
  
 
-<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200" title="Login Page">  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200" title="Location of the station">  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A3.png" width="200" title="Types of ports and number of each type"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A4_setprice.png.png" width="200" title="Initial Price"> 
+<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200" title="Login Page">  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200" title="Location of the station">  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A3.png" width="200" title="Types of ports and number of each type"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A4_setprice.png" width="200" title="Initial Price"> 
 
 <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A5_%20connector_unselected.png" width="200" title="Select Connectors available">  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A6_connectors_selected_5.png" width="200" title="Connectors selected">  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A6_dashboard.png" width="200" title="Dashboard"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A7_manual_price.png" width="200" title="Update Price"> 
 
