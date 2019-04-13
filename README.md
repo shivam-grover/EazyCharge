@@ -10,3 +10,7 @@ We have implemented a dynamic pricing system which takes several parameters, suc
 Screenshots
 
 ![alt text](https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png)
+![alt text](https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png)
+![alt text](https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A3.png)
+
+
