@@ -16,7 +16,10 @@ Screenshots
 
 |<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200" title="Login Page"> | <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A2.png" width="200" title="Location of the station"> | <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/A3.png" width="200"> |
 | Login page   | Location of the station      |  Types and number of ports  |
-| zebra stripes | are neat      |    $1 |
-      LOGIN PAGE
 
+<div style="text-align:center">
+  <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/a1.png" width="200" title="Login Page">
+  <br />
+  Login Page
+</div>
 
