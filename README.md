@@ -24,7 +24,7 @@ Using random forest, skLearn for prediction of future audience and price suggest
 
 # Database
 
-<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase 1.png" width="350" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase2.png" width="350" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase3.png" width="350" title="Suggested Price">
+<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase1.png" width="350" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase2.png" width="350" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase3.png" width="350" title="Suggested Price">
 
 
 ## **Contibutors:** 
