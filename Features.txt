@@ -1,0 +1,8 @@
+Features:
+
+Number of Cars, Battery Capacity, Initial Battery Percentage, Final '', Max Charging Power of Each Port, Capacity of Distribution of Transformer
+
+Output:
+Price
+
+
