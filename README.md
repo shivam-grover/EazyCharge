@@ -29,7 +29,7 @@ The predictions for the price and number of cars are done by a Random Forest Cla
 
 # Database
 
-<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase1.png" width="200" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase2.png" width="200" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase3.png" width="200" title="Suggested Price">
+<img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase1.png" width="360" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase2.png" width="360" title="Suggested Price"> <img src="https://github.com/shivumgrover/EazyCharge/blob/master/screenshots/Firebase3.png" width="360" title="Suggested Price">
 
 ## **Contributors:** 
 Shivam Grover, Harshita Diddee, Divyanshu Sharma, Deepasha Birla, Shitiz Gupta, Nikhil Kalra
