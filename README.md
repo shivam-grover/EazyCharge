@@ -2,7 +2,8 @@
 
 Winning project for Smart India Hackathon 2019 Software Edition
 
-Contibutors: Shivam Grover, Harshita Didde, Divyanshu Sharma, Deepasha Birla, Shitiz Gupta, Nikhil Kalra
+## **Contibutors:** 
+Shivam Grover, Harshita Didde, Divyanshu Sharma, Deepasha Birla, Shitiz Gupta, Nikhil Kalra
 
 Thiss repository, as of now, contains the android application source code.
 An application for the charging operators to maximize their audience without comprimising on the profits. 
