@@ -1,0 +1,5 @@
+https://www.news18.com/news/auto/all-the-electric-hybrid-cars-you-can-buy-in-india-tata-tiago-tigor-ev-mahindra-toyota-camry-1665293.html
+feature - name of the car, Type 
+
+https://www.zigwheels.com/newcars/electric-cars
+feature - battery capacity (power)
