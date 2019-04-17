@@ -1,3 +1,5 @@
+## Cars
+
 https://www.cardekho.com/searchresult?q=electric
 feature - name of the car, Type 
 
@@ -10,3 +12,9 @@ https://www.cardekho.com/overview/Mahindra_E_Verito/Mahindra_E_Verito_D2.htm#det
 
 Battery description 
 Range/Charge 
+ 
+## Bikes 
+
+https://www.bikedekho.com/hero-electric/photon/specifications
+name, fuel type, mileage, charging time 
+Missing - Exact specification of the battery 
