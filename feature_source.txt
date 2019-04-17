@@ -1,5 +1,12 @@
-https://www.news18.com/news/auto/all-the-electric-hybrid-cars-you-can-buy-in-india-tata-tiago-tigor-ev-mahindra-toyota-camry-1665293.html
+https://www.cardekho.com/searchresult?q=electric
 feature - name of the car, Type 
 
-https://www.zigwheels.com/newcars/electric-cars
-feature - battery capacity (power)
+https://www.cardekho.com/tata/<name of the car>/specs
+feature - Fuel type 
+          mileage with full charge 
+          Engine description for the type of battery 
+         
+https://www.cardekho.com/overview/Mahindra_E_Verito/Mahindra_E_Verito_D2.htm#detail
+
+Battery description 
+Range/Charge 
